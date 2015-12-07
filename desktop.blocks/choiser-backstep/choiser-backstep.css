@@ -1,0 +1,10 @@
+.coiser-backstep {
+    height: 1.6em;
+    margin-bottom: 10px;
+}
+.choiser-backstep__link {
+    display: inline-block;
+    color: #222222;
+    text-decoration: none;
+    line-height: 1.25em;
+}

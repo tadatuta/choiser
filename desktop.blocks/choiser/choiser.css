@@ -1,0 +1,58 @@
+.flexbox .choiser {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.choiser {
+  line-height: 1.5238095238095237em;
+  font-size: 100%;
+  color: #222;
+  font-weight: normal;
+  text-align: left;
+  font-family: Calibri, sans-serif;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.flexbox .choiser__select, .flexbox .choiser__help {
+  flex: 1 1;
+}
+
+.choiser__select {
+  padding: 1.25em;
+  background: #efefef;
+}
+
+.choiser__select, .choiser__help {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.flexbox .choiser__chois {
+  flex: 2 1;
+}
+.choiser__chois {
+  padding: 1.25em;
+}
+.choiser__chois {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.choiser__help {
+  padding: 1.25em;
+  background: #569DC0;
+  color: #fefefe;
+}

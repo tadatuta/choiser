@@ -1,0 +1,37 @@
+.choiser-item_position_icon {
+    position: relative;
+    padding-left: 2.625em;
+    box-sizing: border-box;
+}
+.choiser-item {
+  display: block;
+  margin: 0 0 0.625em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #222222;
+  text-decoration: none;
+}
+
+/* Elems
+---------------------------------------
+*/
+.choiser-item__icon {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  height: 2em;
+  width: 2em;
+  vertical-align: top;
+  margin-right: 0.75em;
+  background-color: #b0d1e1;
+  background-image: url(attr('data-src', url, 'http://i/ico.png'));
+  border-radius: 2em;
+}
+.choiser-item {
+  display: block;
+  margin: 0 0 0.625em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #222222;
+  text-decoration: none;
+}

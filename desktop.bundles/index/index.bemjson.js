@@ -8,6 +8,26 @@
         { elem: 'js', url: 'index.min.js' }
     ],
     content: [
-        'Hello, World!'
+        {
+            block: 'choiser',
+            js: true,
+            content: [
+                {
+                    elem:'select',
+                    content: [
+                        { block: 'choiser-backstep' }
+                    ]
+                },
+                {
+                    elem:'chois',
+                    content: [
+                    ]
+                },
+                {
+                    elem:'help',
+                    content: ['select']
+                }
+            ]
+        }
     ]
 });
